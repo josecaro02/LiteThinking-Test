@@ -14,15 +14,15 @@
 
 1. Ensure you have python3 installed
 2. Clone the repository
-2. Install docker and docker-compose
+2.1. Install docker and docker-compose
     [docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
     [docker-compose](https://docs.docker.com/compose/install/)
 3. Install python3 virtual env `apt install python3.8-venv`
-3. Install python3 pip `sudo apt install python3-pip`
-3. create a virtual environment using `virtualenv env`
+3.1. Install python3 pip `sudo apt install python3-pip`
+3.2. create a virtual environment using `virtualenv env`
 4. Activate the virtual environment by running `source env/bin/activate`
-4. Upgrade setup tools to avoid errors `pip install --upgrade setuptools pip wheel`
-4. Install Python3 and Mysql development header `sudo apt-get install python3-dev default-libmysqlclient-dev build-essential`
+4.1. Upgrade setup tools to avoid errors `pip install --upgrade setuptools pip wheel`
+4.2. Install Python3 and Mysql development header `sudo apt-get install python3-dev default-libmysqlclient-dev build-essential`
 5. Install the dependencies using `pip install -r requirements.txt`
 6. Run docker to mysql db `docker-compose up`
 * To stop use `docker-compose stop`
