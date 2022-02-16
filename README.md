@@ -53,14 +53,15 @@
 
 ### Setup local
 
-- npm install axios@0.24.0
+- apt-get install npm
+- [install node@14.*](https://computingforgeeks.com/install-node-js-14-on-ubuntu-debian-linux/)
 - npm install react-bootstrap bootstrap@4.6.0
 ### Installation steps
 - npm install
 - npm start
 
 ### Results frontend
-- [127.0.0.1:4200](127.0.0.1:4200)
+- [127.0.0.1:3000](127.0.0.1:3000)
 
 ---
 
