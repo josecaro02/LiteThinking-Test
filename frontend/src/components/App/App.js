@@ -30,7 +30,7 @@ function App() {
     event.preventDefault();
     setSubmitting(true);
 
-    axios('http://54.208.5.219/api/v1/company/', {
+    axios('http://54.173.90.250/api/v1/company/', {
       method : "POST",
       headers: {"Content-Type": "application/json"},
       data: {

@@ -22,7 +22,7 @@ export default class CompanyList extends React.Component {
     loading = false;
     deleteCompany(event, id) {
         this.loading = true;
-        axios(`http://54.208.5.219/api/v1/companyDelete/${id}`, {
+        axios(`http://54.173.90.250/api/v1/companyDelete/${id}`, {
             method: "DELETE",
             headers: { "Content-Type": "application/json" },
         })
@@ -52,7 +52,7 @@ export default class CompanyList extends React.Component {
     handleSubmit = (event, id)=> {
         event.preventDefault();
         console.log(event.target)
-        axios(`http://54.208.5.219/api/v1/company/${id}`, {
+        axios(`http://54.173.90.250/api/v1/company/${id}`, {
             method : "PUT",
             headers: {"Content-Type": "application/json"},
             data: {
@@ -69,7 +69,7 @@ export default class CompanyList extends React.Component {
           })
     }
     componentDidMount() {
-        axios.get(`http://54.208.5.219/api/v1/company/`)
+        axios.get(`http://54.173.90.250/api/v1/company/`)
             .then(res => {
                 const companies = res.data.results;
                 this.setState({ companies })
