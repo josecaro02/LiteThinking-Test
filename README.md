@@ -53,7 +53,8 @@
 
 ### Setup local
 
-- npm install -g @angular/cli
+- npm install axios@0.24.0
+- npm install react-bootstrap bootstrap@4.6.0
 ### Installation steps
 - npm install
 - npm start
